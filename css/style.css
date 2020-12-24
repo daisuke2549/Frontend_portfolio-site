@@ -308,7 +308,7 @@ html, body {
     background-size: cover;
 }
 
-.header-right{
+/* .header-right{
     width: 100%;
     height: 768px;
     padding: .8em 1.6em .4em .8em;
@@ -325,11 +325,11 @@ html, body {
     height: 768px;
     z-index: -1;
     background:#001762 ;
-    transform: scaleY(4.2) perspective(.6em) rotateX(1.3deg) scaleX(1.0);
+    transform: scaleY(6.0) perspective(.6em) rotateX(1.7deg) scaleX(1.3);
     transform-origin: bottom right;
     position: absolute;
     border-radius: 8px 8px 0 0;
-} 
+}  */
 
 
 .header-top h1{
@@ -1753,7 +1753,7 @@ html, body {
  
  .copyright{
      top: 4927px;
-     width: 100%;
+     width: 1366px;
      height: 237px;
      background: #001762 0% 0% no-repeat padding-box;
      opacity: 1;
@@ -1778,7 +1778,7 @@ html, body {
 
 /*レスポンシブデザイン*/
 
-@media screen and (max-width:639px) {
+@media screen and (max-width:439px) {
     .wrap{
         overflow: hidden;
         margin: 0;
@@ -1790,7 +1790,7 @@ html, body {
         top: -143px;
         left: 0px;
         height: 666.59px;
-        width:100%;
+        width:374.54px;
         
         background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
         opacity: 1;
@@ -1909,7 +1909,7 @@ html, body {
     }
     /*サービス部分*/
     .service_section{
-        width:100%;
+        width:374.54px;
         height:2258px;
     }
     
@@ -2248,7 +2248,7 @@ html, body {
     
     .footer-contact-form{
         top: 6150px;
-        width: 1366px;
+        width: 374.54px;
         height: 248px;
     }
     
@@ -2262,7 +2262,7 @@ html, body {
     
     .copyright{
         top:6398px;
-        width: 1366px;
+        width: 374.54px;
         height: 187px;
     }
     
