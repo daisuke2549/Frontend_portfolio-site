@@ -1776,7 +1776,7 @@ html, body {
 
 /*レスポンシブデザイン*/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:390px) {
     .wrap{
         overflow: hidden;
         margin: 0;
@@ -2304,12 +2304,68 @@ html, body {
 }
 
 
-@media screen and (min-width:768px) and ( max-width:1365px){
+@media screen and (min-width:500px) and ( max-width:800px){
 
 .header-top{
     width:120%;
 }
 
+.header-top h1{
+    top: 470px;
+    width: 148px;
+    left:350px;
+    height: 32px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 24px/32px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: relative;
+    opacity: 1;
+}
+
+.header-top h2{
+
+    top: 482px;
+    font-size: 88px;
+    left:230px;
+    width: 603px;
+    height: 116px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font-size: 40px;
+    font: normal normal medium 70px/116px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.header-top button {
+    top: 580px;
+    width: 275px;
+    left:170px;
+    height: 63px;
+    border: 1px solid var(--unnamed-color-ffffff);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    position: absolute;
+    opacity: 1;
+        background-color: transparent;
+    color:#FFFFFF;
+}
+
+.about-me-title p{
+    left:260px;
+}
+.about-me-under-bar{
+    left:260px;
+}
+.profile_image img{
+    left:10px;
+}
+.introduction_text{
+    
+}
 
 
 
