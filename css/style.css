@@ -14,6 +14,8 @@ html, body {
     overflow: hidden;
     margin: 0;
     width:100%;
+    height:6585px;
+    position: relative;
 }
 
 /*ハンバーガーメニュー*/
@@ -1131,7 +1133,6 @@ html, body {
     height: 504px;
     background: #001762 0% 0% no-repeat padding-box;
     opacity: 1;
-    position: absolute;
 }
 
 .skill-frontend h1{
@@ -1772,11 +1773,10 @@ html, body {
 
 /*レスポンシブデザイン*/
 
-@media screen and (max-width:439px) {
+@media screen and (max-width:480px) {
     .wrap{
         overflow: hidden;
         margin: 0;
-        padding:0px;
     }
 
     
@@ -1784,7 +1784,7 @@ html, body {
         top: -143px;
         left: 0px;
         height: 666.59px;
-        width:374.54px;
+
         
         background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
         opacity: 1;
@@ -1903,10 +1903,9 @@ html, body {
     }
     /*サービス部分*/
     .service_section{
-        width:374.54px;
         height:2258px;
 
-
+        top:1719px;
     }
     
     
@@ -2244,7 +2243,6 @@ html, body {
     
     .footer-contact-form{
         top: 6150px;
-        width: 374.54px;
         height: 248px;
     }
     
@@ -2258,7 +2256,6 @@ html, body {
     
     .copyright{
         top:6398px;
-        width: 374.54px;
         height: 187px;
     }
     
@@ -2294,6 +2291,17 @@ html, body {
        left:60px;
        font-size: 13px;
     }
-    
-    
+       
+}
+
+
+@media screen and (min-width:768px) and ( max-width:1365px){
+
+.header-top{
+    width:120%;
+}
+
+
+
+
 }
