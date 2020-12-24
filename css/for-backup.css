@@ -8,12 +8,12 @@ html, body {
   padding: 0px;
   justify-content: center;
   align-items: center;
+
   text-align: center;
 }
 .wrap{
     overflow: hidden;
     margin: 0;
-    width:100%;
 }
 
 /*ハンバーガーメニュー*/
@@ -299,6 +299,8 @@ html, body {
     left: 0px;
     position: relative;
     height: 768px;
+    width: 100%;
+    position:static;
     margin:0;
     background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
     opacity: 1;
@@ -331,7 +333,7 @@ html, body {
 
 .header-top h1{
     top: 450px;
-
+    position: relative;
     left: 1128px;
     width: 148px;
     height: 32px;
@@ -344,7 +346,7 @@ html, body {
 }
 
 .header-top h2{
-
+    position: absolute;
     top: 482px;
     font-size: 88px;
     left: 680px;
@@ -367,7 +369,8 @@ html, body {
     border: 1px solid #FFFFFF;
     border-radius: 35px;
     opacity: 1;
-        background-color: transparent;
+    position: relative;
+    background-color: transparent;
     color:#FFFFFF;
 }
 
@@ -377,14 +380,15 @@ html, body {
 
 /*profile part*/
 .profile_section{
-
+    width: 100%;
     height: 4394.25px;
     margin:0;
     overflow:hidden;    
+
 }
 
 .about-me-title p{
-    top: 130.62px;
+    top: 899px;
     left: 562px;
     width: 242px;
     height: 74px;
@@ -394,7 +398,7 @@ html, body {
     letter-spacing: 0px;
     color: #151515;
     opacity: 1;
-    position: relative;
+    position: absolute;
 }
 .about-me-under-bar{
     top: 974px;
@@ -417,7 +421,7 @@ html, body {
 }
 
 .introduction_text{
-    top: 176px;
+    top: 1035px;
     left: 637px;
     width: 562px;
     height: 256px;
@@ -427,7 +431,7 @@ html, body {
     letter-spacing: 0px;
     color: #151515;
     opacity: 1;
-    position: relative;
+    position: absolute;
 }
 
 .profile_background p{ 
@@ -491,7 +495,7 @@ html, body {
 .service_section{
     top: 1719px;
     left: 0px;
-    width:100%;
+    width: 100%;
     height: 1200px;
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position:bottom;  
@@ -519,7 +523,7 @@ html, body {
 .service_section2{
     top:776px;
     left: 0px;
-
+    width: 100%;
     height: 424px;
     background: url(../img/janko-ferlic-y0fjfgD2bLg-unsplash.jpg)  #001762 0% 0% no-repeat padding-box;
     background-position: 20% 80%;
@@ -541,6 +545,11 @@ html, body {
     opacity: 0.6;
     display:block
 }
+
+.service_content{
+    
+}
+
 
 
 
@@ -1663,7 +1672,7 @@ html, body {
  .footer-contact-form{
      top: 4425px;
      left: 0px;
-     width:100%;
+     width: 100%;
      overflow:hidden;    
      margin: 0px;
      height: 502px;
@@ -1679,6 +1688,7 @@ html, body {
      content: "";
      left: 0px;
      left: 0px;
+     width: 100%;
      opacity: 0.6;
      height: 502px;
      background: #001762 0% 0% no-repeat padding-box;
@@ -1747,8 +1757,8 @@ html, body {
  
  .copyright{
      top: 4927px;
+     width: 100%;
      height: 237px;
-     width:100%;
      background: #001762 0% 0% no-repeat padding-box;
      opacity: 1;
      position: absolute;
@@ -1776,7 +1786,7 @@ html, body {
     .wrap{
         overflow: hidden;
         margin: 0;
-        padding:0px;
+
     }
 
     
@@ -1905,8 +1915,6 @@ html, body {
     .service_section{
         width:374.54px;
         height:2258px;
-
-
     }
     
     
@@ -2297,3 +2305,4 @@ html, body {
     
     
 }
+    
