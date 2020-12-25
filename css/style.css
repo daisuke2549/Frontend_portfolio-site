@@ -1776,7 +1776,7 @@ html, body {
 
 /*レスポンシブデザイン*/
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:450px) {
     .wrap{
         overflow: hidden;
         margin: 0;
@@ -1970,7 +1970,7 @@ html, body {
         width: 302px;
         height: 82px;
         font-size:16px;
-    
+        white-space: nowrap;
     }
     .service-price2{
         top:955px;
@@ -2076,6 +2076,7 @@ html, body {
         left:70px;
         font-size: 16px;
         width:144px;
+        white-space: nowrap;
      }
      .skill-frontend p1{
         top:133px;
@@ -2304,8 +2305,10 @@ html, body {
 }
 
 
-@media screen and (min-width:500px) and ( max-width:800px){
+@media screen and (min-width:600px) and ( max-width:900px){
 
+        
+/*ヘッダー部分*/
 .header-top{
     width:120%;
 }
@@ -2313,7 +2316,7 @@ html, body {
 .header-top h1{
     top: 470px;
     width: 148px;
-    left:350px;
+    left:550px;
     height: 32px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
@@ -2328,7 +2331,7 @@ html, body {
 
     top: 482px;
     font-size: 88px;
-    left:230px;
+    left:450px;
     width: 603px;
     height: 116px;
     color: var(--unnamed-color-ffffff);
@@ -2343,7 +2346,7 @@ html, body {
 .header-top button {
     top: 580px;
     width: 275px;
-    left:170px;
+    left:450px;
     height: 63px;
     border: 1px solid var(--unnamed-color-ffffff);
     border: 1px solid #FFFFFF;
@@ -2353,6 +2356,9 @@ html, body {
         background-color: transparent;
     color:#FFFFFF;
 }
+
+
+/*プロフィール部分*/
 
 .about-me-title p{
     left:260px;
@@ -2364,9 +2370,235 @@ html, body {
     left:10px;
 }
 .introduction_text{
-    
+    width:320px;
+    left:370px;
+}
+.profile_background p{
+    left:360px;
+}
+.profile_background p2{
+    left:530px;
+}
+
+.profile_background_content{
+    width:280px;
+    left:370px;
+}
+
+/*サービス部分*/
+
+.service_section{
+   width:100%;
+}
+
+.service-title p{
+   left:320px;
+}
+.Service-under-bar{
+    left:320px;
+}
+.service-subtitle {
+    left:50px;
+    text-align: left;
+}
+.service_content{
+    width:50%;
+}
+
+.service-content-title1{
+    width:220px;
+    left:20px;
+}
+.service-content-title1 p{
+    left:45px;
+}
+
+
+.service-price1{
+    width:220px;
+    left:20px;
+    right:20px;
+}
+.service-price1 p1{
+    left:20px;
+}
+.service-price1 p2{
+    left:20px;
+}
+.service-price1 h1{
+    left:20px;
+}
+.service-price1 h2{
+    left:20px;
+}
+
+.service-detailed1{
+    width:220px;
+    left:20px;
+}
+
+.service-detailed1 h1{
+    width:160px;
+    left:20px;
+    top:10px;
+}
+
+
+.service-used-technology1{
+    width:220px;
+    left:20px;
+}
+.service-used-technology1 p1{
+    left:0px;
+    width: 220px;;
+}
+
+
+.service-content-title2{
+    width:220px;
+    left:275px;
+}
+.service-content-title2 p{
+    left:15px;
 }
 
 
 
+.service-price2{
+    width:220px;
+    left:275px;
+}
+.service-price2 p1{
+    left:20px;
+}
+.service-price2 p2{
+    width:190px;
+    left:20px;
+}
+.service-price2 h1{
+    left:20px;
+}
+.service-price2 h2{
+    top:160px;
+    left:20px;
+}
+
+.service-detailed2{
+    width:220px;
+    left:275px;
+}
+
+.service-detailed2 h1{
+    width:160px;
+    left:20px;
+    top:10px;
+}
+
+
+.service-used-technology2{
+    width:220px;
+    left:275px;
+}
+.service-used-technology2 p1{
+    left:20px;
+    width: 160px;;
+}
+
+
+
+
+.service-content-title3{
+    width:220px;
+    left:530px;
+}
+.service-content-title3 p{
+    left:15px;
+}
+
+
+
+.service-price3{
+    width:220px;
+    left:530px;
+}
+.service-price3 p1{
+    left:20px;
+}
+.service-price3 p2{
+    width:190px;
+    left:20px;
+}
+.service-price3 h1{
+    left:20px;
+}
+.service-price3 h2{
+    top:160px;
+    left:20px;
+}
+
+.service-detailed3{
+    width:220px;
+    left:530px;
+}
+
+.service-detailed3 h1{
+    width:160px;
+    left:20px;
+    top:10px;
+}
+
+
+.service-used-technology3{
+    width:220px;
+    left:530px;
+}
+.service-used-technology3 p1{
+    left:5px;
+    width: 220px;;
+}
+.contact-form-in-service button{
+    left:260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*スキル部分*/
+
+
+/*フッダー部分*/
+
+
+.footer-contact-form button{
+    left:280px;
+}
+    
+.SNS-icon p1 {
+    left:320px;
+}
+
+.SNS-icon p2 {
+    left:400px;
+}
+
+
+.SNS-icon p3 {
+    left:480px;
+}
+.copy-right-text{
+    left:270px;
 }
