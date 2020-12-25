@@ -1145,6 +1145,10 @@ html, body {
     opacity: 1;
     position: absolute;
 }
+.skill-frontend:hover{    
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;	
+}
 
 .skill-frontend h1{
     top: 48px;
@@ -1237,6 +1241,11 @@ html, body {
     background: #40559A 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
+}
+.skill-backend:hover{
+        
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;	
 }
 
 .skill-backend h1{
@@ -1344,6 +1353,10 @@ html, body {
     background: #001762 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
+}
+.skill-other:hover{    
+	transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;	
 }
 
 .skill-other h1{
@@ -1711,8 +1724,14 @@ html, body {
      position: absolute;
      background-color: transparent;
  }
- 
- 
+  
+ .footer-contact-form button:hover{
+  
+    transform: scale(1.3);	/*画像の拡大率*/
+	transition-duration: 0.7s;	/*変化に掛かる時間*/
+
+ }
+
  
  .SNS-icon p1 {
      top: 72px;
@@ -2112,6 +2131,7 @@ html, body {
         height:357px;
         left:46px;
     }
+
     
     .skill-backend h1{
         top:32px;
@@ -2278,6 +2298,9 @@ html, body {
         width: 35px;
         height: 40px;
     }
+
+
+
     
     .SNS-icon p2 {
         top:64px;
