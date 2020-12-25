@@ -622,6 +622,7 @@ html, body {
 .service-price1{
     top: 509px;
     left: 238px;
+    white-space: nowrap;
     width: 302px;
     z-index: 2;
     height: 216px;
@@ -637,7 +638,7 @@ html, body {
     top: 32px;
     left: 79px;
     z-index: 2;
-    width: 144px;
+    width: 184px;
     height: 21px;
     color: var(--unnamed-color-151515);
     text-align: center;
@@ -666,6 +667,7 @@ html, body {
     left: 94px;
     width: 114px;
     height: 21px;
+    white-space: nowrap;
     z-index: 2;
     color: var(--unnamed-color-151515);
     text-align: left;
@@ -795,6 +797,7 @@ html, body {
     opacity: 1;
     position: absolute;
 }
+
 .service-price2 h1{
     top: 57px;
     left: 81px;
@@ -811,8 +814,9 @@ html, body {
 .service-price2 p2{
     top: 116px;
     left:28px;
-    width: 247px;
+    width: 277px;
     height: 21px;
+    white-space: nowrap;
     color: var(--unnamed-color-151515);
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
@@ -2069,6 +2073,7 @@ html, body {
     .skill-frontend h1{
         top:35px;
        left:61px;
+       white-space: nowrap;
        font-size: 40px;
     }
     .skill-frontend h2{
@@ -2431,6 +2436,7 @@ html, body {
 }
 .service-price1 p2{
     left:20px;
+    white-space: nowrap;
 }
 .service-price1 h1{
     left:20px;
@@ -2464,11 +2470,11 @@ html, body {
 .service-content-title2{
     width:220px;
     left:275px;
+    white-space: nowrap;
 }
 .service-content-title2 p{
     left:15px;
 }
-
 
 
 .service-price2{
@@ -2480,6 +2486,7 @@ html, body {
 }
 .service-price2 p2{
     width:190px;
+    white-space: nowrap;
     left:20px;
 }
 .service-price2 h1{
