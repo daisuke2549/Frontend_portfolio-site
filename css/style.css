@@ -2312,6 +2312,13 @@ html, body {
 .header-top{
     width:120%;
 }
+.wrap{
+    overflow: hidden;
+    margin: 0;
+    width:100%;
+    height:7000px;
+    position: relative;
+}
 
 .header-top h1{
     top: 470px;
@@ -2561,27 +2568,65 @@ html, body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*スキル部分*/
+.skill_section{
+    height:2000px;
+}
+
+.skill_section_title h1{
+    left:320px;
+}
+
+.Skill-under-bar{
+    left:315px;
+}
+
+.skill-frontend{
+    left:200px;
+}
+.skill-backend{
+    left: 200px;
+    top:3700px;
+}
+
+.skill-other{
+    left: 200px;
+    top:4220px;
+}
+
+/*作品部分*/
+.work_section_title h1{
+    left:320px;
+    top:4800px;
+}
+.Work-under-bar{
+    left:320px;
+    top:4880px;
+}
+
+.Work1{
+    left: 200px;
+    top:5000px;
+}
+.Work2{
+    left: 200px;
+    top:5400px;
+}
+.Work3{
+    left: 200px;
+    top:5800px;
+}
+.work_section{
+    height:2000px
+}
+
 
 
 /*フッダー部分*/
+.footer-contact-form{
+    top:6350px;
 
+}
 
 .footer-contact-form button{
     left:280px;
@@ -2599,6 +2644,9 @@ html, body {
 .SNS-icon p3 {
     left:480px;
 }
-.copy-right-text{
+.copyright{
+    top:6800px;
+}
+.copyright p{
     left:270px;
 }
