@@ -386,6 +386,7 @@ html, body {
 }
 
 .about-me-title p{
+    white-space: nowrap;
     top: 130.62px;
     left: 562px;
     width: 242px;
@@ -416,6 +417,11 @@ html, body {
     height: 287px;
     opacity: 1;
     position: absolute;
+}
+
+.profile_image img:hover {
+    box-shadow: 0 5px 10px black;
+    transform: translate(0, -5px);
 }
 
 .introduction_text{
@@ -1843,6 +1849,7 @@ html, body {
         top:747px;
         font: normal normal bold 40px/74px Roboto;
         left: 95px;
+        white-space: nowrap;
         position: absolute;
         right:107px;
     }
@@ -2383,9 +2390,6 @@ html, body {
 
 
 
-
-
-
 /*プロフィール部分*/
 
 .about-me-title p{
@@ -2396,6 +2400,7 @@ html, body {
 }
 .profile_image img{
     left:10px;
+    top:1040px;
 }
 .introduction_text{
     width:320px;
