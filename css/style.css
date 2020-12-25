@@ -307,7 +307,7 @@ html, body {
     background-size: cover;
 }
 
-/* .header-right{
+.header-right{
     width: 100%;
     height: 768px;
     padding: .8em 1.6em .4em .8em;
@@ -315,8 +315,8 @@ html, body {
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 0.8; 
     position: absolute;
-}
-.header-right::before{
+} 
+ .header-right::before{
     content: "";
     left: 364px;
     top: 0;
@@ -324,17 +324,17 @@ html, body {
     height: 768px;
     z-index: -1;
     background:#001762 ;
-    transform: scaleY(6.0) perspective(.6em) rotateX(1.7deg) scaleX(1.3);
+    transform: scaleY(5.0) perspective(.6em) rotateX(1.7deg) scaleX(1.0);
     transform-origin: bottom right;
     position: absolute;
     border-radius: 8px 8px 0 0;
-}  */
+}  
 
-
-.header-top h1{
-    top: 450px;
-    position: relative;
+.header-right h1{
+    top: 490px;
     left: 1128px;
+    z-index: 1;
+    position: relative;
     width: 148px;
     height: 32px;
     color: var(--unnamed-color-ffffff);
@@ -344,9 +344,7 @@ html, body {
     color: #FFFFFF;
     opacity: 1;
 }
-
-.header-top h2{
-
+.header-right h2{
     top: 482px;
     font-size: 88px;
     left: 680px;
@@ -362,7 +360,7 @@ html, body {
 }
 
 .header-top button {
-    top: 630px;
+    top: 655px;
     left: 998px;
     width: 275px;
     position: absolute;
@@ -1790,66 +1788,58 @@ html, body {
 
     
     .header-top{
-        top: -143px;
         left: 0px;
         height: 666.59px;
-
-        
         background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
         opacity: 1;
         background-size: cover;
     }
     
-    
-    
-    
-    .header-top h1{
-        top:283px;
-        left:138.54px;
-        font: normal normal normal 24px/32px Roboto;
-    
-    }
-    .header-top h2{
-        top:314px;
-        left:49.54px;
-        position: absolute;
-        width: 275px;
-        height: 53px;
-        font-size:40px;
-        color: #FFFFFF;
-        opacity: 1;
-        
-    }
-    
     .header-right{
-        top: -100px;
-        left: 0px;
-        height:0px;
-        width: 1.54px;
-        background-color: transparent;
-        background:#001762 ;
-    }
-    .header-right::before{
+        width: 100%;
+        height: 666.59px;
+        display: inline-block;
+        background: transparent 0% 0% no-repeat padding-box;
+        opacity: 0.8; 
+        position: absolute;
+    } 
+     .header-right::before{
         content: "";
         left: 364px;
         top: 0;
-        width: 0px;
-        height: 768px;
+        margin:0px;
+        width: 100%;
+        height: 666.59px;
         z-index: -1;
         background:#001762 ;
-        transform: scaleY(6.0) perspective(.6em) rotateX(1.7deg) scaleX(1.3);
+        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.9);
         transform-origin: bottom right;
         position: absolute;
         border-radius: 8px 8px 0 0;
-    } 
+    }  
     
-    
+   .header-right h1{
+       top:343px;
+       left:138.54px;
+       position: absolute;
+       font-size: 16px;
+   }
+   .header-right h2{
+    top:362px;
+    left:49.54px;
+    position: absolute;
+    font-size: 40px;
+}
+.header-right a{
+    top:50px;
+    position: relative;
+
+}
     
     /*プロフィール部分*/
     
     
     .about-me-title p{
-        top: 899px;
         top:747px;
         font: normal normal bold 40px/74px Roboto;
         left: 95px;
