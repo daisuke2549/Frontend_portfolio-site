@@ -1461,6 +1461,20 @@ html, body {
     opacity: 1;
     position: absolute;
 }
+.skill-other p3{
+    top:295px;
+    left:113px;
+    height: 43px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 32px/43px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    white-space: nowrap;
+}
+
 
 
 
@@ -1970,7 +1984,7 @@ html, body {
     }
     
     .profile_background_content {
-        left:60px;
+        left:70px;
         top:1504px;
         font-size:13px;
     }
@@ -2019,6 +2033,12 @@ html, body {
         height: 216px;
         font-size:16px;
     }
+    .service-price1 p1{
+        white-space: nowrap;
+        width:300px;
+    }
+
+
     .service-detailed1{
         top:605px;
         left:37px;
@@ -2228,7 +2248,7 @@ html, body {
     .skill-other{
         top:4907px;
         width:283px;
-        height:237px;
+        height:257px;
         left:46px;
     }
     
@@ -2260,7 +2280,11 @@ html, body {
         font-size:24px;
         left:106px;
     }    
-    
+    .skill-other p3{
+        top:213px;
+        left:89px;
+        font-size:24px;
+    }    
     
     
     
