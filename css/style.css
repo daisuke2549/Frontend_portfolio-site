@@ -109,9 +109,6 @@ html, body {
   }
   
 
-
-
-
 /*JQuery用*/
 .blur {
   filter: blur(7px);
@@ -1837,7 +1834,7 @@ html, body {
         height: 666.59px;
         z-index: -1;
         background:#001762 ;
-        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.9);
+        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.97);
         transform-origin: bottom right;
         position: absolute;
         border-radius: 8px 8px 0 0;
@@ -1924,7 +1921,7 @@ html, body {
     }
     
     .profile_background_content {
-        left:27px;
+        left:60px;
         top:1504px;
         font-size:13px;
     }
@@ -1968,6 +1965,8 @@ html, body {
         top:381px;
         left:37px;
         width: 302px;
+        white-space: nowrap;
+
         height: 216px;
         font-size:16px;
     }
