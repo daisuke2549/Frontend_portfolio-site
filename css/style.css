@@ -1863,7 +1863,7 @@ html, body {
 
 /*レスポンシブデザイン*/
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:400px) {
     .wrap{
         overflow: hidden;
         margin: 0;
@@ -1918,6 +1918,7 @@ html, body {
 .header-right a{
     top:50px;
     position: relative;
+    
 
 }
 #page_top{
@@ -1950,7 +1951,7 @@ html, body {
     
     .header-top button {
         top:421px;
-        left:90.54px;
+        left:70.00px;
         width: 193px;
         height:48px;
         font-size:12px;
@@ -2791,4 +2792,579 @@ html, body {
 }
 .copyright p{
     left:270px;
+}
+}
+/*iphone12サイズ対応部分*/
+
+@media screen and (min-width:401px) and ( max-width:450px){
+
+    .wrap{
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+        height:6585px;
+    }
+
+    
+    .header-top{
+        left: 0px;
+        height: 666.59px;
+        background: url(../img/jesse-gardner-0tKc9vaYUAw-unsplash.jpg) ;
+        opacity: 1;
+        background-size: cover;
+    }
+    
+    .header-right{
+        width: 100%;
+        height: 666.59px;
+        display: inline-block;
+        background: transparent 0% 0% no-repeat padding-box;
+        opacity: 0.8; 
+        position: absolute;
+    } 
+     .header-right::before{
+        content: "";
+        left: 364px;
+        top: 0;
+        margin:0px;
+        width: 100%;
+        height: 666.59px;
+        z-index: -1;
+        background:#001762 ;
+        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.97);
+        transform-origin: bottom right;
+        position: absolute;
+        border-radius: 8px 8px 0 0;
+    }  
+    
+   .header-right h1{
+       top:333px;
+       width:100%;
+       left:0px;
+       text-align:center;
+              font-size: 16px;
+   }
+   .header-right h2{
+    top:322px;
+    width:100%;
+    left:0px;
+    text-align:center;
+    font-size: 40px;
+}
+
+
+
+
+
+#page_top{
+    display: none;
+}
+    
+    /*プロフィール部分*/
+    
+    
+    .about-me-title p{
+        top:747px;
+        font: normal normal bold 40px/74px Roboto;
+        left: 95px;
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+
+    }
+    .about-me-under-bar{
+        top:804.5px;
+        left: 128px;
+        width: 173px;
+        text-align: center;
+        position: absolute;
+    }
+    
+    .profile_image img{
+        top: 861px;
+        margin-left:105px;
+        width: 220px;
+        left:0px;
+        height: 196px;
+    }
+    
+    .header-top button {
+        top:421px;
+        left:90.54px;
+        width: 193px;
+        height:48px;
+        font-size:12px;
+        margin-left:15px;
+        margin-top: 80px;;
+        position: absolute;
+    }
+    
+    .introduction_text{
+        top: 1089px;
+        left: 80px;
+        width: 281px;
+        height: 295px;
+        color: var(--unnamed-color-151515);
+        text-align: left;
+        font-size:13px;
+        position: absolute;
+        letter-spacing: 0px;
+        color: #151515;
+        opacity: 1;
+    }
+    
+    
+    .profile_background p{ 
+        top: 1440px;
+        left: 150px;
+        width: 129px;
+        height: 32px;
+        text-align: center;
+        font-size:24px;
+    }
+    
+    .profile_background p2{ 
+        top: 1440px;
+        width: 19px;
+        height: 32px;
+        left: 280px;
+    }
+    
+    .profile_background_content {
+        left:100px;
+        top:1504px;
+        font-size:13px;
+    }
+    /*サービス部分*/
+    .service_section{
+        height:2258px;
+
+        top:1719px;
+    }
+    
+    
+    
+    
+    .service-title p{
+        top: 64px;
+        text-align: center;
+        left: 120px;
+        width: 194px;
+        height: 53px;
+        font-size:40px;
+    }
+    .Service-under-bar{
+        top:121.5px;
+        left: 150px;
+        width: 134px;
+    }
+    .service-subtitle {
+        top:170px;
+        left:70px;
+        width: 302px;
+        font-size:16px;
+        text-align: left;
+    }
+    .service_content{
+        position: relative;
+        left:25px;
+    }
+ 
+
+
+    .service-content-title1{
+        top: 291px;
+        left: 37px;
+        width: 302px;
+        height: 82px;
+        font-size:16px;
+    }
+    .service-price1{
+        top:381px;
+        left:37px;
+        width: 302px;
+        white-space: nowrap;
+
+        height: 216px;
+        font-size:16px;
+    }
+    .service-price1 p1{
+        white-space: nowrap;
+        width:300px;
+    }
+
+
+    .service-detailed1{
+        top:605px;
+        left:37px;
+        width: 302px;
+        height: 149px;
+        font-size:13px;
+    }
+    .service-used-technology1{
+        top:762px;
+        width: 302px;
+        left: 37px;
+        height: 69px;
+    }
+    .service-content-title2{
+        top:865px;
+        left: 36px;
+        width: 302px;
+        height: 82px;
+        font-size:16px;
+        white-space: nowrap;
+    }
+    .service-price2{
+        top:955px;
+        left: 36px;
+        width: 302px;
+        height: 216px;
+        font-size:16px;
+    }
+    .service-price2 p1{
+        white-space: nowrap;
+
+    }
+    .service-detailed2{
+        top:1179px;
+        left: 36px;
+        width: 302px;
+        height: 149px;
+        font-size:13px;
+    }
+    
+    .service-used-technology2{
+        top:1332px; 
+        left: 36px;
+        width: 302px;
+        height: 69px;
+        font-size:13px;
+    }
+    
+    .service-content-title3{
+        top:1467px;
+        left: 36px;
+        width: 302px;
+        height: 82px;
+        font-size:16px;
+    
+    }
+    .service-price3{
+        top:1557px;
+        left: 36px;
+        width: 302px;
+        height: 216px;
+        font-size:16px;
+    
+    }
+    .service-detailed3{
+        top:1781px;
+        left: 36px;
+        width: 302px;
+        height: 149px;
+        font-size:13px;
+    }
+    
+    .service-used-technology3{
+        top:1938px; 
+        left: 36px;
+        width: 302px;
+        height: 69px;
+        font-size:13px;
+    }
+    
+    .contact-form-in-service button{
+        top: 2079px;
+        left:87px;
+        width:193px;
+        font-size: 13px;
+    
+    }
+    
+    
+    /*スキル紹介部分*/
+
+    .skill_section_title h1{
+        top: 4055px;
+        left: 138px;
+        width: 139px;
+        text-align: center;
+        height: 74px;
+        font-size: 40px;
+        letter-spacing: 0px;
+        color: #151515;
+        opacity: 1;
+        position: absolute;
+    }
+    
+    .Skill-under-bar{
+        top: 4112.5px;
+        left: 157px;
+        width: 99.5px;
+    }
+    
+    
+    .skill-frontend {
+        top: 4169px;
+        left: 66px;
+        width: 283px;
+        height: 317px;
+        position: absolute;
+    }
+    .skill-frontend h1{
+        top:35px;
+       left:61px;
+       white-space: nowrap;
+       font-size: 40px;
+    }
+    .skill-frontend h2{
+        top:85px;
+        left:70px;
+        font-size: 16px;
+        width:144px;
+        white-space: nowrap;
+     }
+     .skill-frontend p1{
+        top:133px;
+        left:103px;
+        font-size: 24px;
+        width:78px;
+    }
+     .skill-frontend p2{
+        top:173px;
+        left:112px;
+        font-size: 24px;
+        width:60px;
+     }
+    .skill-frontend p3{
+       top:213px;
+       left:84px;
+       font-size: 24px;
+       width:116px;
+    }
+    
+    .skill-frontend p4{
+        top:253px;
+        left:107px;
+        font-size: 24px;
+        width:70px;
+     }
+    
+    .skill-backend{
+        top:4518px;
+        width:283px;
+        height:357px;
+        left: 66px;
+    }
+
+    
+    .skill-backend h1{
+        top:32px;
+        left:64px;
+        font-size: 40px;
+    }
+    
+    .skill-backend h2{
+        top:85px;
+        left:78px;
+        font-size: 16px;
+     }
+    
+    .skill-backend p1{
+        top:133px;
+        left:118px;
+        font-size: 24px;
+        width:78px;
+    }
+    .skill-backend p2{
+        top:173px;
+        left:106px;
+        font-size: 24px;
+        width:60px;
+     }
+     .skill-backend p3{
+       top:213px;
+       left:114px;
+       font-size: 24px;
+    }
+    .skill-backend p4{
+        top:253px;
+        left:71px;
+        white-space: nowrap;
+        font-size: 24px;
+        width:70px;
+    }
+    .skill-backend p5{
+        top:293px;
+        left:119px;
+        font-size: 24px;
+        width:70px;
+    }
+    
+    
+    .skill-other{
+        top:4907px;
+        width:283px;
+        height:257px;
+        left: 66px;
+    }
+    
+    .skill-other h1{
+        top:32px;
+        width:283px;
+        height:237px;
+        font-size:40px;
+        left:82px;
+    }    
+    .skill-other h2{
+        top:85px;
+        width:283px;
+        height:237px;
+        font-size:16px;
+        left:70px;
+    }    
+    
+    .skill-other p1{
+        top:133px;
+        height:133px;
+        font-size:24px;
+        left:83px;
+    }    
+    
+    .skill-other p2{
+        top:173px;
+        height:133px;
+        font-size:24px;
+        left:106px;
+    }    
+    .skill-other p3{
+        top:213px;
+        left:89px;
+        font-size:24px;
+    }    
+    
+    
+    
+    /*作品紹介部分*/
+    
+    .Work1{
+        top: 5334px;
+        left: 66px;
+        width: 283px;
+        height: 222px;
+        background: transparent url('../img/my.introduction.jpg') 0% 0% no-repeat padding-box;
+        border: 1px solid #B5B5B5;
+        opacity: 1;
+        position: absolute;
+    }
+    
+    
+    .Work1-hover{
+        top: 5334px;
+        left: 46px;
+        width: 283px;
+        height: 222px;
+    }
+    
+    
+    .work_section_title h1{
+        top: 5244px;
+        left: 131px;
+        text-align:center;
+        font-size: 40px;
+    }
+    
+    .Work-under-bar{
+        top: 5301.5px;
+        left: 155px;
+        width:113px;
+    }
+    .Work2{
+        top: 5581px;
+        left: 66px;
+        width: 283px;
+        height: 222px;
+    }
+    .Work2-hover{
+        top: 5581px;
+        left: 46px;
+        width: 283px;
+        height: 222px;
+    }
+    .Work3{
+        top: 5828px;
+        left: 66px;
+        width: 283px;
+        height: 222px;
+    }
+    
+    
+    /*フッター部分*/
+    
+    .footer-contact-form{
+        top: 6150px;
+        height: 248px;
+    }
+    
+    .footer-contact-form button{
+        top:100px;
+        left:115px;
+        width:193px;
+        height:48px;
+        font-size: 14px;
+    }
+    
+    .copyright{
+        top:6398px;
+        height: 187px;
+        position: absolute;
+    }
+    .SNS-icon{
+        left:20px;
+        position: relative;
+    }
+    
+    .SNS-icon p1 {
+        left:104px;
+        top:64px;
+        
+        width: 35px;
+        height: 40px;
+    }
+
+
+
+    
+    .SNS-icon p2 {
+        top:64px;
+        left:170px;
+        width: 35px;
+        height: 40px;
+    
+    }
+    
+    
+    .SNS-icon p3 {
+        left:236px;
+        top:64px;
+        width: 35px;
+        height: 40px;
+    }
+    
+    
+    
+    .copy-right-text{
+    
+       top:128px;
+       left:60px;
+       text-align: center;
+       font-size: 13px;
+    }
+       
+}
+
+
+
+
 }
