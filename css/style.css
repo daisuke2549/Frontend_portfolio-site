@@ -5,6 +5,7 @@ html, body {
   color: white;
   font-family: 'PT Serif', serif;
   margin: 0px;
+  width:1366px;
   padding: 0px;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,7 @@ html, body {
 .wrap{
     overflow: hidden;
     margin: 0;
-    width:100%;
+    width:1366px;
     height:5162px;
     position: relative;
 }
@@ -296,6 +297,7 @@ html, body {
 .header-top{
     top: -143px;
     left: 0px;
+    width:100%;
     position: relative;
     height: 768px;
     margin:0;
@@ -307,6 +309,7 @@ html, body {
 .header-right{
     width: 100%;
     height: 768px;
+    text-align: center;
     padding: .8em 1.6em .4em .8em;
     display: inline-block;
     background: transparent 0% 0% no-repeat padding-box;
@@ -331,6 +334,7 @@ html, body {
     top: 490px;
     left: 1128px;
     z-index: 1;
+    text-align: center;
     position: relative;
     width: 148px;
     height: 32px;
@@ -1863,9 +1867,23 @@ html, body {
 /*レスポンシブデザイン*/
 
 @media screen and (max-width:400px) {
+    html, body {
+        color: white;
+        font-family: 'PT Serif', serif;
+        margin: 0px;
+        width:400px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+
+
     .wrap{
         overflow: hidden;
         margin: 0;
+        width:400px;
         position: relative;
         height:6585px;
     }
@@ -1896,7 +1914,7 @@ html, body {
         height: 666.59px;
         z-index: -1;
         background:#001762 ;
-        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.97);
+        transform: scaleY(5.6) perspective(.6em) rotateX(3.05deg) scaleX(1.91);
         transform-origin: bottom right;
         position: absolute;
         border-radius: 8px 8px 0 0;
@@ -1917,6 +1935,7 @@ html, body {
 .header-right a{
     top:50px;
     position: relative;
+    left:-160px;
     
 
 }
@@ -1931,19 +1950,21 @@ html, body {
         top:747px;
         font: normal normal bold 40px/74px Roboto;
         left: 95px;
+        text-align: center;
         white-space: nowrap;
         position: absolute;
         right:107px;
     }
     .about-me-under-bar{
         top:804.5px;
-        left: 95.5px;
+        left: 125.5px;
         width: 173px;
     }
     
     .profile_image img{
         top: 861px;
-        left: 72px;
+        left: 102px;
+        text-align: center;
         width: 220px;
         height: 196px;
     }
@@ -1958,7 +1979,7 @@ html, body {
     
     .introduction_text{
         top: 1089px;
-        left: 47px;
+        left: 69px;
         width: 281px;
         height: 295px;
         color: var(--unnamed-color-151515);
@@ -1973,7 +1994,8 @@ html, body {
     
     .profile_background p{ 
         top: 1440px;
-        left: 110px;
+        text-align: center;
+        left: 125px;
         width: 129px;
         height: 32px;
         font-size:24px;
@@ -1983,11 +2005,11 @@ html, body {
         top: 1440px;
         width: 19px;
         height: 32px;
-        left: 247px;
+        left: 252px;
     }
     
     .profile_background_content {
-        left:70px;
+        left:75px;
         top:1504px;
         font-size:13px;
     }
@@ -1997,25 +2019,29 @@ html, body {
 
         top:1719px;
     }
+    .service_content{
+        left:10px;
+        position: relative;
+    }
     
     
     
     
     .service-title p{
         top: 64px;
-        left: 120px;
-        width: 134px;
+        left: 110px;
+        text-align: center;
         height: 53px;
         font-size:40px;
     }
     .Service-under-bar{
         top:121.5px;
-        left:120.5px;
+        left:134.5px;
         width: 134px;
     }
     .service-subtitle {
         top:170px;
-        left:37px;
+        left:57px;
         width: 302px;
         font-size:16px;
         text-align: left;
@@ -2131,9 +2157,7 @@ html, body {
     }
     
     
-    /*スキル紹介部分*/
-
-    
+    /*スキル紹介部分*/  
     .skill_section_title h1{
         top: 4055px;
         left: 138px;
@@ -2155,7 +2179,7 @@ html, body {
     
     .skill-frontend {
         top: 4169px;
-        left: 46px;
+        left:55px;
         width: 283px;
         height: 317px;
         position: absolute;
@@ -2203,7 +2227,8 @@ html, body {
         top:4518px;
         width:283px;
         height:357px;
-        left:46px;
+        left:55px;
+        position: absolute;
     }
 
     
@@ -2255,7 +2280,8 @@ html, body {
         top:4907px;
         width:283px;
         height:257px;
-        left:46px;
+        left:55px;
+        position: absolute;
     }
     
     .skill-other h1{
@@ -2298,7 +2324,7 @@ html, body {
     
     .Work1{
         top: 5334px;
-        left: 46px;
+        left: 55px;
         width: 283px;
         height: 222px;
         background: transparent url('../img/my.introduction.jpg') 0% 0% no-repeat padding-box;
@@ -2310,7 +2336,7 @@ html, body {
     
     .Work1-hover{
         top: 5334px;
-        left: 46px;
+        left: 55px;
         width: 283px;
         height: 222px;
     }
@@ -2329,19 +2355,19 @@ html, body {
     }
     .Work2{
         top: 5581px;
-        left: 46px;
+        left: 55px;
         width: 283px;
         height: 222px;
     }
     .Work2-hover{
         top: 5581px;
-        left: 46px;
+        left: 55px;
         width: 283px;
         height: 222px;
     }
     .Work3{
         top: 5828px;
-        left: 46px;
+        left: 55px;
         width: 283px;
         height: 222px;
     }
@@ -2356,7 +2382,7 @@ html, body {
     
     .footer-contact-form button{
         top:100px;
-        left:91px;
+        left:101px;
         width:193px;
         height:48px;
         font-size: 14px;
@@ -2370,7 +2396,7 @@ html, body {
     
     
     .SNS-icon p1 {
-        left:104px;
+        left:114px;
         top:64px;
         
         width: 35px;
@@ -2382,7 +2408,7 @@ html, body {
     
     .SNS-icon p2 {
         top:64px;
-        left:170px;
+        left:180px;
         width: 35px;
         height: 40px;
     
@@ -2390,7 +2416,7 @@ html, body {
     
     
     .SNS-icon p3 {
-        left:236px;
+        left:246px;
         top:64px;
         width: 35px;
         height: 40px;
@@ -2401,7 +2427,7 @@ html, body {
     .copy-right-text{
     
        top:128px;
-       left:60px;
+       left:80px;
        font-size: 13px;
     }
        
@@ -2409,6 +2435,23 @@ html, body {
 
 
 @media screen and (min-width:600px) and ( max-width:900px){
+html, body {
+    color: white;
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    width:768px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wrap{
+    overflow: hidden;
+    margin: 0;
+    width:768px;
+    position: relative;
+    height:6585px;
+}
 
         
 /*ヘッダー部分*/
@@ -2796,6 +2839,26 @@ html, body {
 /*iphone12サイズ対応部分*/
 
 @media screen and (min-width:401px) and ( max-width:450px){
+    html, body {
+        color: white;
+        font-family: 'PT Serif', serif;
+        margin: 0px;
+        width:420px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+
+
+    .wrap{
+        overflow: hidden;
+        margin: 0;
+        width:420px;
+        position: relative;
+        height:6585px;
+    }
 
     .wrap{
         overflow: hidden;
@@ -3360,9 +3423,4 @@ html, body {
        font-size: 13px;
     }
        
-}
-
-
-
-
 }
