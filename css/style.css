@@ -425,7 +425,6 @@ html, body {
 
 /*profile part*/
 .profile_section{
-
     height: 4394.25px;
     margin:0;
     overflow:hidden;    
@@ -866,7 +865,7 @@ html, body {
     left:28px;
     width: 277px;
     height: 21px;
-    white-space: nowrap;
+ 
     color: var(--unnamed-color-151515);
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
@@ -2600,7 +2599,7 @@ html, body {
     white-space: nowrap;
 }
 .service-content-title2 p{
-    left:15px;
+    left:25px;
 }
 
 
@@ -2612,9 +2611,9 @@ html, body {
     left:20px;
 }
 .service-price2 p2{
-    width:190px;
-    white-space: nowrap;
     left:20px;
+    font-size: 16px;
+    width:180px;
 }
 .service-price2 h1{
     left:20px;
@@ -2653,7 +2652,7 @@ html, body {
     left:530px;
 }
 .service-content-title3 p{
-    left:15px;
+    left:30px;
 }
 
 
@@ -2831,7 +2830,7 @@ html, body {
         height: 666.59px;
         z-index: -1;
         background:#001762 ;
-        transform: scaleY(6.0) perspective(.6em) rotateX(3.05deg) scaleX(1.97);
+        transform: scaleY(5.45) perspective(.6em) rotateX(3.05deg) scaleX(1.9);
         transform-origin: bottom right;
         position: absolute;
         border-radius: 8px 8px 0 0;
@@ -2861,9 +2860,8 @@ html, body {
 }
     
     /*プロフィール部分*/
-    
-    
-    .about-me-title p{
+
+        .about-me-title p{
         top:747px;
         font: normal normal bold 40px/74px Roboto;
         left: 95px;
