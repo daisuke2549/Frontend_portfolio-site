@@ -1953,7 +1953,7 @@ html, body {
     .about-me-title p{
         top:747px;
         font: normal normal bold 40px/74px Roboto;
-        left: 95px;
+        left: 70px;
         text-align: center;
         white-space: nowrap;
         position: absolute;
@@ -1961,13 +1961,13 @@ html, body {
     }
     .about-me-under-bar{
         top:804.5px;
-        left: 125.5px;
+        left: 103.5px;
         width: 173px;
     }
     
     .profile_image img{
         top: 861px;
-        left: 102px;
+        left: 90px;
         text-align: center;
         width: 220px;
         height: 196px;
@@ -2024,7 +2024,7 @@ html, body {
         top:1719px;
     }
     .service_content{
-        left:10px;
+        left:5px;
         position: relative;
     }
     
@@ -2033,14 +2033,14 @@ html, body {
     
     .service-title p{
         top: 64px;
-        left: 110px;
+        left: 100px;
         text-align: center;
         height: 53px;
         font-size:40px;
     }
     .Service-under-bar{
         top:121.5px;
-        left:134.5px;
+        left:126.5px;
         width: 134px;
     }
     .service-subtitle {
@@ -2183,7 +2183,7 @@ html, body {
     
     .skill-frontend {
         top: 4169px;
-        left:55px;
+        left:50px;
         width: 283px;
         height: 317px;
         position: absolute;
@@ -2231,7 +2231,7 @@ html, body {
         top:4518px;
         width:283px;
         height:357px;
-        left:55px;
+        left:50px;
         position: absolute;
     }
 
@@ -2284,7 +2284,7 @@ html, body {
         top:4907px;
         width:283px;
         height:257px;
-        left:55px;
+        left:50px;
         position: absolute;
     }
     
@@ -2328,7 +2328,7 @@ html, body {
     
     .Work1{
         top: 5334px;
-        left: 55px;
+        left:50px;
         width: 283px;
         height: 222px;
         background: transparent url('../img/my.introduction.jpg') 0% 0% no-repeat padding-box;
@@ -2340,7 +2340,7 @@ html, body {
     
     .Work1-hover{
         top: 5334px;
-        left: 55px;
+        left:50px;
         width: 283px;
         height: 222px;
     }
@@ -2359,19 +2359,19 @@ html, body {
     }
     .Work2{
         top: 5581px;
-        left: 55px;
+        left:50px;
         width: 283px;
         height: 222px;
     }
     .Work2-hover{
         top: 5581px;
-        left: 55px;
+        left:50px;
         width: 283px;
         height: 222px;
     }
     .Work3{
         top: 5828px;
-        left: 55px;
+        left:50px;
         width: 283px;
         height: 222px;
     }
@@ -3428,27 +3428,3 @@ html, body {
 }
 
 
-@media screen and (min-width:1367px){
-
-/* 
-html, body {
-    color: white;
-    font-family: 'PT Serif', serif;
-    margin: 0px;
-    width:100%;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .wrap{
-      overflow: hidden;
-      margin: 0;
-      width:100%;
-      height:5162px;
-      position: relative;
-  } */
-
-
-
-}
