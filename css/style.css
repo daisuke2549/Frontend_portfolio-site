@@ -486,6 +486,11 @@ html, body {
     position: relative;
 }
 
+.profile_background{
+     left:43%;
+}
+
+
 .profile_background p{ 
     top: 1355px;
     left: 43%;
@@ -515,31 +520,8 @@ html, body {
     white-space: nowrap
 }
 
-.profile_background p{
-    top: 1355px;
-    left: 43%;
-    width: 173px;
-    height: 43px;
-    color: var(--unnamed-color-151515);
-    text-align: left;
-    font: normal normal bold 32px/43px Roboto;
-    letter-spacing: 0px;
-    color: #151515;
-    opacity: 1;
-    position: absolute;
-}
-.profile_background p2{
-    top: 1355px;
-    left: 648px;
-    width: 26px;
-    height: 43px;
-    text-align: left;
-    font: normal normal bold 32px/43px Roboto;
-    letter-spacing: 0px;
-    color: #2150BC;
-    opacity: 1;
-    position: absolute;
-}
+
+
 
 /* サービス紹介 */
 
@@ -1499,9 +1481,7 @@ html, body {
  
  
  /*work part*/
-.work-list{
-    width:70%;
-}
+
 
 
  
@@ -1528,11 +1508,13 @@ html, body {
      opacity: 1;
      position: absolute;
  }
- 
+
+
+
  .Work1{
      top: 3984px;
-     left: 115px;
-     width: 358px;
+     left: 5%;
+     width : 25vw ;
      height: 281px;
      background: transparent url('../img/my.introduction.jpg') 0% 0% no-repeat padding-box;
      border: 1px solid #B5B5B5;
@@ -1542,8 +1524,8 @@ html, body {
  
  .Work1-hover{
      top: 3984px;
-     left: 115px;
-     width: 358px;
+     left: 5%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1553,8 +1535,8 @@ html, body {
  
  .Work1-hover:hover{
      top: 3984px;
-     left: 115px;
-     width: 358px;
+     left: 5%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1568,7 +1550,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 20px/21px Roboto;
      top:64px;
-     left:109px;
+     left:30%;
      opacity: 1;
      position: absolute;
  }
@@ -1577,7 +1559,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 16px/21px Roboto;
      top:120px;
-     left:147px;
+     left:15%;
      opacity: 1;
      position: absolute;
  }
@@ -1586,7 +1568,7 @@ html, body {
  .Work1-hover h3{
      color: #FFFFFF;
      top:144px;
-     left:68px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -1596,7 +1578,7 @@ html, body {
  .Work1-hover h4{
      color: #FFFFFF;
      top:200px;
-     left:44px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -1605,8 +1587,8 @@ html, body {
  
  .Work2{
      top: 3984px;
-     left: 505px;
-     width: 358px;
+     left: 37%;
+     width : 25vw ;
      height: 281px;
      background: transparent url('../img/yamagata.png') 0% 0% no-repeat padding-box;
      border: 1px solid #B5B5B5;
@@ -1616,8 +1598,8 @@ html, body {
  
  .Work2-hover{
      top: 3984px;
-     left: 505px;
-     width: 358px;
+     left: 37%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1629,8 +1611,8 @@ html, body {
  
  .Work2-hover:hover{
      top: 3984px;
-     left: 505px;
-     width: 358px;
+     left: 37%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1644,7 +1626,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 20px/21px Roboto;
      top:64px;
-     left:109px;
+     left:30%;
      opacity: 1;
      position: absolute;
  }
@@ -1653,7 +1635,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 16px/21px Roboto;
      top:120px;
-     left:147px;
+     left:15%;
      opacity: 1;
      position: absolute;
  }
@@ -1662,7 +1644,7 @@ html, body {
  .Work2-hover h3{
      color: #FFFFFF;
      top:144px;
-     left:68px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -1672,7 +1654,7 @@ html, body {
  .Work2-hover h4{
      color: #FFFFFF;
      top:200px;
-     left:72px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -1682,8 +1664,8 @@ html, body {
  
  .Work3{
      top: 3984px;
-     left: 894px;
-     width: 358px;
+     left: 69%;
+     width : 25vw ;
      height: 281px;
      background: transparent url('../img/web-company.png') 0% 0% no-repeat padding-box;
      border: 1px solid #B5B5B5;
@@ -1693,8 +1675,8 @@ html, body {
  
  .Work3-hover{
      top: 3984px;
-     left: 894px;
-     width: 358px;
+     left: 69%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1704,8 +1686,8 @@ html, body {
  }
  .Work3-hover:hover{
      top: 3984px;
-     left: 894px;
-     width: 358px;
+     left: 69%;
+     width : 25vw ;
      height: 281px;
      opacity: 1;
      position: absolute;
@@ -1719,7 +1701,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 20px/21px Roboto;
      top:64px;
-     left:100px;
+     left:30%;
      opacity: 1;
      position: absolute;
  }
@@ -1728,7 +1710,7 @@ html, body {
      color: #FFFFFF;
      font: normal normal normal 16px/21px Roboto;
      top:120px;
-     left:147px;
+     left:15%;
      opacity: 1;
      position: absolute;
  }
@@ -1737,7 +1719,7 @@ html, body {
  .Work3-hover h3{
      color: #FFFFFF;
      top:144px;
-     left:68px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -1747,7 +1729,7 @@ html, body {
  .Work3-hover h4{
      color: #FFFFFF;
      top:200px;
-     left:12px;
+     left:15%;
      font: normal normal normal 16px/21px Roboto;
      opacity: 1;
      position: absolute;
@@ -2057,14 +2039,14 @@ html, body {
     }
     .service-content-title1{
         top: 291px;
-        left: 37px;
+        left:13%;
         width: 302px;
         height: 82px;
         font-size:16px;
     }
     .service-price1{
         top:381px;
-        left:37px;
+        left:13%;
         width: 302px;
         white-space: nowrap;
 
@@ -2079,7 +2061,7 @@ html, body {
 
     .service-detailed1{
         top:605px;
-        left:37px;
+        left:13%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -2087,12 +2069,12 @@ html, body {
     .service-used-technology1{
         top:762px;
         width: 302px;
-        left: 37px;
+        left:13%;
         height: 69px;
     }
     .service-content-title2{
         top:865px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 82px;
         font-size:16px;
@@ -2100,7 +2082,7 @@ html, body {
     }
     .service-price2{
         top:955px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 216px;
         font-size:16px;
@@ -2111,7 +2093,7 @@ html, body {
     }
     .service-detailed2{
         top:1179px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -2119,7 +2101,7 @@ html, body {
     
     .service-used-technology2{
         top:1332px; 
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 69px;
         font-size:13px;
@@ -2127,7 +2109,7 @@ html, body {
     
     .service-content-title3{
         top:1467px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 82px;
         font-size:16px;
@@ -2135,7 +2117,7 @@ html, body {
     }
     .service-price3{
         top:1557px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 216px;
         font-size:16px;
@@ -2143,7 +2125,7 @@ html, body {
     }
     .service-detailed3{
         top:1781px;
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -2151,7 +2133,7 @@ html, body {
     
     .service-used-technology3{
         top:1938px; 
-        left: 36px;
+        left:13%;
         width: 302px;
         height: 69px;
         font-size:13px;
@@ -2159,7 +2141,7 @@ html, body {
     
     .contact-form-in-service button{
         top: 2079px;
-        left:87px;
+        left:25%;
         width:193px;
         font-size: 13px;
     
@@ -2188,7 +2170,7 @@ html, body {
     
     .skill-frontend {
         top: 4169px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 317px;
         position: absolute;
@@ -2236,7 +2218,7 @@ html, body {
         top:4518px;
         width:283px;
         height:357px;
-        left:50px;
+        left:15%;
         position: absolute;
     }
 
@@ -2289,7 +2271,7 @@ html, body {
         top:4907px;
         width:283px;
         height:257px;
-        left:50px;
+        left:15%;
         position: absolute;
     }
     
@@ -2333,7 +2315,7 @@ html, body {
     
     .Work1{
         top: 5334px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 222px;
         background: transparent url('../img/my.introduction.jpg') 0% 0% no-repeat padding-box;
@@ -2345,7 +2327,7 @@ html, body {
     
     .Work1-hover{
         top: 5334px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 222px;
     }
@@ -2364,19 +2346,19 @@ html, body {
     }
     .Work2{
         top: 5581px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 222px;
     }
     .Work2-hover{
         top: 5581px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 222px;
     }
     .Work3{
         top: 5828px;
-        left:50px;
+        left:15%;
         width: 283px;
         height: 222px;
     }
@@ -2391,7 +2373,7 @@ html, body {
     
     .footer-contact-form button{
         top:100px;
-        left:101px;
+        left:27%;
         width:193px;
         height:48px;
         font-size: 14px;
@@ -2478,7 +2460,7 @@ html, body {
 .header-top h1{
     top: 470px;
     width: 148px;
-    left:550px;
+    left:75%;
     height: 32px;
     color: var(--unnamed-color-ffffff);
     text-align: left;
@@ -2490,10 +2472,9 @@ html, body {
 }
 
 .header-top h2{
-
     top: 482px;
     font-size: 88px;
-    left:450px;
+    left:60%;
     width: 603px;
     height: 116px;
     color: var(--unnamed-color-ffffff);
@@ -2508,7 +2489,7 @@ html, body {
 .header-top button {
     top: 580px;
     width: 275px;
-    left:450px;
+    left:57%;
     height: 63px;
     border: 1px solid var(--unnamed-color-ffffff);
     border: 1px solid #FFFFFF;
@@ -2550,29 +2531,28 @@ html, body {
 /*プロフィール部分*/
 
 .about-me-title p{
-    left:260px;
+    left:32%;
 }
 .about-me-under-bar{
-    left:260px;
+    left:32%;
+
 }
 .profile_image img{
-    left:10px;
+    left:1%;
     top:1040px;
+    width:250px;
 }
 .introduction_text{
-    width:320px;
-    left:370px;
+    width:280px;
+    left:47%;
 }
 .profile_background p{
-    left:360px;
-}
-.profile_background p2{
-    left:530px;
+    left:47%;
 }
 
 .profile_background_content{
     width:280px;
-    left:370px;
+    left:47%;
 }
 
 /*サービス部分*/
@@ -2789,7 +2769,9 @@ html, body {
 }
 
 .Work1{
-    left: 200px;
+    left: 30%;
+  
+    width:35vh;
     top:5000px;
 }
 .work_section_title h1{
@@ -2802,11 +2784,15 @@ html, body {
 
 
 .Work2{
-    left: 200px;
+    left: 30%;
+  
+    width:35vh;
     top:5400px;
 }
 .Work3{
-    left: 200px;
+    left: 30%;
+  
+    width:35vh;
     top:5800px;
 }
 .work_section{
@@ -2822,26 +2808,26 @@ html, body {
 }
 
 .footer-contact-form button{
-    left:280px;
+    left:33%;
 }
     
 .SNS-icon p1 {
-    left:320px;
+    left:40%;
 }
 
 .SNS-icon p2 {
-    left:400px;
+    left:50%;
 }
 
 
 .SNS-icon p3 {
-    left:480px;
+    left:60%;
 }
 .copyright{
     top:6800px;
 }
 .copyright p{
-    left:270px;
+    left:32%;
 }
 }
 /*iphone12サイズ対応部分*/
@@ -3043,14 +3029,14 @@ html, body {
 
     .service-content-title1{
         top: 291px;
-        left: 37px;
+        left: 14%;
         width: 302px;
         height: 82px;
         font-size:16px;
     }
     .service-price1{
         top:381px;
-        left:37px;
+        left: 14%;
         width: 302px;
         white-space: nowrap;
 
@@ -3065,7 +3051,7 @@ html, body {
 
     .service-detailed1{
         top:605px;
-        left:37px;
+        left: 14%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -3073,12 +3059,12 @@ html, body {
     .service-used-technology1{
         top:762px;
         width: 302px;
-        left: 37px;
+        left: 14%;
         height: 69px;
     }
     .service-content-title2{
         top:865px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 82px;
         font-size:16px;
@@ -3086,7 +3072,7 @@ html, body {
     }
     .service-price2{
         top:955px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 216px;
         font-size:16px;
@@ -3097,7 +3083,7 @@ html, body {
     }
     .service-detailed2{
         top:1179px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -3105,7 +3091,7 @@ html, body {
     
     .service-used-technology2{
         top:1332px; 
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 69px;
         font-size:13px;
@@ -3113,7 +3099,7 @@ html, body {
     
     .service-content-title3{
         top:1467px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 82px;
         font-size:16px;
@@ -3121,7 +3107,7 @@ html, body {
     }
     .service-price3{
         top:1557px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 216px;
         font-size:16px;
@@ -3129,7 +3115,7 @@ html, body {
     }
     .service-detailed3{
         top:1781px;
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 149px;
         font-size:13px;
@@ -3137,7 +3123,7 @@ html, body {
     
     .service-used-technology3{
         top:1938px; 
-        left: 36px;
+        left: 14%;
         width: 302px;
         height: 69px;
         font-size:13px;
@@ -3145,7 +3131,7 @@ html, body {
     
     .contact-form-in-service button{
         top: 2079px;
-        left:87px;
+        left: 25%;
         width:193px;
         font-size: 13px;
     
