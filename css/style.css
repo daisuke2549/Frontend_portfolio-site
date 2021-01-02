@@ -1148,20 +1148,23 @@ html, body {
 }
 
 /* スキル紹介 */
+.skill-section{
+    margin:auto;
+}
+
 
 
 .skill_section_title h1{
-    top: 3042px;
-    left: 43%;
-    width: 139px;
-    height: 74px;
+
+ 
+    text-align: center;
     color: var(--unnamed-color-151515);
-    text-align: left;
+
     font: normal normal bold 56px/74px Roboto;
     letter-spacing: 0px;
     color: #151515;
     opacity: 1;
-    position: absolute;
+
 }
 
 .Skill-under-bar{
